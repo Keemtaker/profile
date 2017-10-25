@@ -1,0 +1,92 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background: #EBEBEB;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+h1, h2, h3 {
+  font-family:'Montserrat', sans-serif;
+  font-size: 22px;
+  line-height: 1.5em;
+}
+
+h1{
+  color: #DD5555;
+  font-size: 25;
+}
+
+
+a:hover {
+  text-decoration: none;
+  color: blue;
+}
+
+a {
+  color: #666666;
+  text-decoration: none;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  border: 1px solid rgba(0, 0, 0, 1);
+  background: white;
+  border-radius: 3px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: 20px;
+}
+
+.image-circle{
+  width: 300px;
+  border-radius: 50%;
+}
+
+.image-circle2{
+  width: 300px;
+}
+
+.image-reduce{
+  width:200px;
+}
+
+.btn-red{
+  background-color: #DD5555;
+  color: white;
+  font-weight: 550;
+  padding: 10px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+.text-center{
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
